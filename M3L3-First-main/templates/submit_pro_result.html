@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Sonuçlar 2</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <header class="header">
+    <div class="header__text">
+      <h1>Evinizin enerji verimliliğini hesaplayın!</h1>
+      <p>Girişimde bulunun ve aşırı enerji tüketimi sorununu çözün</p>
+    </div>
+  </header>
+  <main>
+    {% block content %}
+    <li>Adınız Ahmet mi? {{check_box_value_true}}</li>
+    {% endblock %}
+</body>
+</html>
